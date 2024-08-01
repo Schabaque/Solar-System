@@ -1,0 +1,37 @@
+.venusimg{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
+.info3{
+    color: white;
+    margin: 0px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding-top: 40px;
+}
+.info3 p{
+    font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width:650px){
+  .venusimg{
+    height: 50%;
+    width: 70%;
+  }  
+  .info3{
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 10px;
+    text-align: left;
+   left: 10px;
+   right: 10px;
+  }
+  .info3 p{
+    width: 300px;
+  }
+ 
+}

@@ -1,0 +1,47 @@
+.info6{
+    display: flex;
+    position: absolute;
+    right:100px ;
+}
+.div1{
+   margin-left: 200px;
+   width: 600px;
+   margin-right: 200px;
+    margin-top: 20px;
+}
+.uranusimgs{
+position: absolute;
+right: 0;
+bottom: 0;
+
+}
+.boxes3{
+    
+    z-index: 10;
+}
+@media(max-width:650px){
+    .info6{
+       position: absolute;
+       flex-direction: column;
+       left: -200px;
+        font-size: small;
+        
+    }
+    .boxes3{
+        position: absolute;
+       left: 200px;
+       top: 250px;
+       z-index: 20;
+    }
+    .uranusimgs{
+        height: 30%;
+        width: 100%;
+    }
+    .div1{
+        width: 60%;
+    }
+    .div1 p{
+        font-size: 15px;
+    }
+
+}

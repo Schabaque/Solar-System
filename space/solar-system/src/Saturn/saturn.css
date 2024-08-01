@@ -1,0 +1,35 @@
+.det2{
+    position: absolute;
+    right: 200px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.saturnimg{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 90%;
+}
+.info5{
+    position: absolute;
+    right: 200px;
+    text-align: right;
+    top: 50px;
+    width: 550px;
+}
+@media(max-width:650px){
+    .info5{
+        right: 50px;
+        width: 200px;
+    }
+    .saturnimg{
+        height: 70%;
+        width: 60%;
+    }
+    .det2{
+        right: 50px;
+    }
+   
+}

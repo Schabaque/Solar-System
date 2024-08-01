@@ -1,0 +1,31 @@
+.jupiterimg{
+    position:absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+.det{
+    position: absolute;
+    left: 200px;
+    bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media(max-width:650px){
+    .det{
+        left:10px;
+    }
+    .info3 p{
+        z-index: 2;
+    }
+    .info3{
+        position: absolute;
+        top: 20px;
+        width: 40%;
+    }
+    .jupiterimg{
+        height: 60% ;
+        width: 80%;
+    }
+}

@@ -1,0 +1,10 @@
+.circle {
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    pointer-events: none; /* Ensure the cursor doesn't interfere with clicks */
+    z-index: 9999; /* Ensure it is above all other elements */
+    background-color: aqua;
+  }
+  

@@ -1,0 +1,131 @@
+.summary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  height: 340px;
+  gap: 10px;
+  margin: auto;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+.htag{
+  margin-top: 50px;
+  margin-left: 600px;
+}
+.description{
+  margin-top: 50px;
+  margin-left: 450px;
+  width: 50%;
+  text-align: center;
+}
+#sun{
+  background-image: url('../assets/sun.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-weight: 700;
+  color: rgb(48, 2, 50);
+}
+.exp{
+  position: absolute;
+  left: 700px;
+  bottom: 30px;
+}
+.exp button:hover{
+  background: linear-gradient(385deg, #2500FF 20%, #FF0004 50%, #CD1013 70%);
+
+
+}
+.sum h2,p{
+  color:rgb(251, 248, 251) ;
+}
+.sum {
+ 
+  box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+  height: 300px;
+  min-width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+  border-radius: 30px;
+  margin: 5px;
+  flex-grow: 1;
+  max-width: 100px; 
+  flex-direction: column;
+ 
+}
+
+.sum:hover {
+  flex-grow: 7;
+  max-width: 700px; 
+ 
+}
+.summary-slide{
+  display: flex;
+ 
+}
+#sun, #mercury, #venus, #earth, #Mars, #Jupiter, #Neptune, #Saturn, #Uranus {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+#exbut{
+  position: absolute;
+  left: 750px;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+#sun { background-image: url('../assets/sun.png'); }
+#mercury { background-image: url('../assets/mercury.png'); }
+#venus { background-image: url('../assets/venus.png'); }
+#earth { background-image: url('../assets/earth.png'); }
+#Mars { background-image: url('../assets/mars.png'); }
+#Jupiter { background-image: url('../assets/Jupiter.png'); }
+#Neptune { background-image: url('../assets/neptune.png'); }
+#Saturn { background-image: url('../assets/Saturn.png'); }
+#Uranus { background-image: url('../assets/Uranus.png'); }
+@media(max-width:650px){
+  .htag{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 20px;
+  }
+  .sum h2{
+    font-size: smaller;
+  }
+  .description{
+ 
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: smaller;
+
+  }
+  .summary{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    height: 70vh;
+    row-gap: 2px;
+  }
+  
+ 
+  .sum{
+    height: 120px;
+    margin: 0px;
+  }
+  #exbut{
+    position: absolute;
+    left: 170px;
+    transform: translateX(-50%);
+    bottom: 10px;
+    margin-top: 100px;
+  }
+ 
+}

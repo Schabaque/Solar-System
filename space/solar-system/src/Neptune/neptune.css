@@ -1,0 +1,44 @@
+/* neptune.css */
+
+.neptune-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+.qwe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.det3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.info7 {
+  text-align: center;
+  padding: 20px;
+}
+.neptuneimg{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  
+}
+@media(max-width:650px){
+  .neptuneimg{
+    height: 70%;
+    width: 100%;
+  }
+}
+
+
